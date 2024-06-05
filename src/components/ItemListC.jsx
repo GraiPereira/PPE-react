@@ -1,16 +1,38 @@
+import { useState, useEffect } from 'react';
+import data from '../data/productos.json';
+import { ItemList } from './ItemList';
+import { useParams } from 'react-router-dom';
 
 
 export const ItemListC = () => {
-  return (
-    <div>
-        <div className="itemList">
-        
-        <div className="container">
-        <h1>Bienvenido a Velas del Sur</h1>
-        En Velas del Sur, nos apasiona crear velas únicas y llenas de energía positiva. Cada vela está hecha a mano con amor y cuidado, utilizando ingredientes naturales y fragancias exquisitas. Nuestro objetivo es iluminar tus momentos especiales y crear un ambiente acogedor en tu hogar.
-        </div>
-        </div>
+    let { categoryId } = useParams();
+    let [productos, setProductos] = useState([]);
+    console.log(categoryId);
 
-    </div>
-  )
-}
+    const pedirProductos = () => {
+        // eslint-disable-next-line no-unused-vars
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve(data);
+            }, 1000);
+        });
+    };
+
+    useEffect(() => {
+
+        pedirProductos()
+          .then((res) => {
+            if (categoryId) {
+                setProductos(res.filter((prod) => prod.categoria.id === categoryId))
+            } else {
+              setProductos(res);
+            }
+        });
+    }, [categoryId]);
+
+    return (
+        <div className="item-list-container">
+            <ItemList productos={productos} />
+        </div>
+    );
+};

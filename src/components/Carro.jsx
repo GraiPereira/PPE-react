@@ -1,11 +1,14 @@
 
 
 const Carro = () => {
+
+
+  
   return (
     <div>
       
     <div className="Carro">
-        🛒1
+      🛒1
     </div>
     </div>
   )

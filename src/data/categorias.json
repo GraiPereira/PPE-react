@@ -1,0 +1,14 @@
+[
+    {
+        "id": "velasAromaticas",
+        "nombre": "Velas Aromáticas"
+    },
+    {
+        "id": "velasDecorativas",
+        "nombre": "Velas Decorativas"
+    },
+    {
+        "id": "difusoresCeras",
+        "nombre": "Difusores y Ceras"
+    }
+]

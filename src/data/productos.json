@@ -1,0 +1,110 @@
+[
+  {
+      "id": "velaAromatica1",
+      "imagen": "https://placeholder.pics/svg/180x180",
+      "title": "Vela Aromática de Lavanda",
+      "description": "Vela perfumada con aceite esencial de lavanda. Relajante y reconfortante.",
+      "price": "6.500 CLP",
+      "ref": "VA-LAV-1",
+      "categoria": {
+          "id": "velasAromaticas",
+          "nombre": "Velas Aromáticas"
+      }
+  },
+  {
+      "id": "velaDecorativa1",
+      "imagen": "https://example.com/imagenes/vela-decorativa1.jpg",
+      "title": "Vela Decorativa de Cera de Abeja",
+      "description": "Vela artesanal hecha de cera de abeja pura. Diseño elegante y natural.",
+      "price": "9.800 CLP",
+      "ref": "VD-CERA-1",
+      "categoria": {
+          "id": "velasDecorativas",
+          "nombre": "Velas Decorativas"
+      }
+  },
+  {
+      "id": "difusor1",
+      "imagen": "https://example.com/imagenes/difusor1.jpg",
+      "title": "Difusor de Aromas de Eucalipto",
+      "description": "Difusor con varillas de rattan impregnadas en aceite esencial de eucalipto. Purifica el ambiente.",
+      "price": "12.000 CLP",
+      "ref": "DIF-EUC-1",
+      "categoria": {
+          "id": "difusoresCeras",
+          "nombre": "Difusores y Ceras"
+      }
+},
+{
+    "id": "velaAromatica1567",
+    "imagen": "https://example.com/imagenes/vela-aromatica1.jpg",
+    "title": "Vela Aromática de Lavanda",
+    "description": "Vela perfumada con aceite esencial de lavanda. Relajante y reconfortante.",
+    "price": "6.500 CLP",
+    "ref": "VA-LAV-1",
+    "categoria": {
+        "id": "velasAromaticas",
+        "nombre": "Velas Aromáticas"
+    }
+},
+{
+        "id": "velaDecorativa165",
+        "imagen": "https://example.com/imagenes/vela-decorativa1.jpg",
+        "title": "Vela Decorativa de Cera de Abeja",
+        "description": "Vela artesanal hecha de cera de abeja pura. Diseño elegante y natural.",
+        "price": "9.800 CLP",
+        "ref": "VD-CERA-1",
+        "categoria": {
+            "id": "velasDecorativas",
+            "nombre": "Velas Decorativas"
+        }
+    },
+    {
+        "id": "difusor34",
+        "imagen": "https://example.com/imagenes/difusor1.jpg",
+        "title": "Difusor de Aromas de Eucalipto",
+        "description": "Difusor con varillas de rattan impregnadas en aceite esencial de eucalipto. Purifica el ambiente.",
+        "price": "12.000 CLP",
+        "ref": "DIF-EUC-1",
+        "categoria": {
+            "id": "difusoresCeras",
+            "nombre": "Difusores y Ceras"
+        }
+    },
+        {
+            "id": "velaAromatica397",
+            "imagen": "https://example.com/imagenes/vela-aromatica3.jpg",
+            "title": "Vela Aromática de Coco",
+            "description": "Vela con aroma tropical de coco. Perfecta para relajarse en la playa.",
+            "price": "8.700 CLP",
+            "ref": "VA-COC-3",
+            "categoria": {
+                "id": "velasAromaticas",
+                "nombre": "Velas Aromáticas"
+            }
+        },
+        {
+            "id": "velaDecorativa309",
+            "imagen": "https://example.com/imagenes/vela-decorativa3.jpg",
+            "title": "Vela Decorativa de Rosa",
+            "description": "Vela con forma de rosa y aroma floral. Ideal para ocasiones especiales.",
+            "price": "11.200 CLP",
+            "ref": "VD-ROS-3",
+            "categoria": {
+                "id": "velasDecorativas",
+                "nombre": "Velas Decorativas"
+            }
+        },
+        {
+            "id": "difusor323",
+            "imagen": "https://example.com/imagenes/difusor3.jpg",
+            "title": "Difusor de Aromas de Lavanda",
+            "description": "Difusor con varillas de bambú impregnadas en aceite esencial de lavanda. Calmante y relajante.",
+            "price": "13.000 CLP",
+            "ref": "DIF-LAV-3",
+            "categoria": {
+                "id": "difusoresCeras",
+                "nombre": "Difusores y Ceras"
+            }
+        }
+]
